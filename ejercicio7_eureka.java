@@ -16,7 +16,7 @@ public class ejercicio7_eureka {
         clave = "eureka";
         
         //la función equal se coloca como argumento la palabra a comparar
-    if (palabra.equals(clave)){
+    if (palabra.equalsIgnoreCase(clave)){
         System.out.println("Acertaste con la palabra Clave");
     }else {
         System.out.println("Palabra errónea");
