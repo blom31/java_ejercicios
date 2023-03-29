@@ -18,7 +18,7 @@ public class ejercicio8_tamanio_frase {
         // con la función length se calcula el tamaño de la palabra o frase
         tamanio = frase.length();
         
-       if(tamanio == 8){ /*frase.length()==8
+       if(tamanio == 8){ /*frase.length()==8*/
            System.out.println("¡CORRECTO!");
        } else {
            System.out.println("¡INCORRECTO!");
