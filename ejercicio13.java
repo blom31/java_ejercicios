@@ -21,13 +21,13 @@ public class ejercicio13 {
     public static void main(String[] args) {
         
         Scanner leer = new Scanner(System.in);
-        int large;
+        int large, i, j;
         
         System.out.println("Ingrese el tamaño del cuadrado");
         large = leer.nextInt();
         
-        for (int i = 0; i < large; i++) {
-            for (int j = 0; j < large; j++) {
+        for (i = 0; i < large; i++) {
+            for (j = 0; j < large; j++) {
                 if  (i==0 || i== large-1 || j==0 ||j== large-1) {
                     System.out.print("* ");
                    

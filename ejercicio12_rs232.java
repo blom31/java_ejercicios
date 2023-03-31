@@ -34,7 +34,7 @@ public class ejercicio12_rs232 {
             cadena = leer.nextLine();
             
             if (cadena.equals("&&&&&")) {
-                correct++;
+                
                 break;
             }
             
