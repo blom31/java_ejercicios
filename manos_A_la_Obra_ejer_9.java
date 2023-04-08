@@ -31,7 +31,7 @@ public class manos_A_la_Obra_ejer_9 {
         }
         } while (cont<=9);
         //System.out.println("Se capturó el nro 0 ");
-        System.out.println("La suma de los números ingresados fue de: " + suma + " y la cantidad de nros " + cont);
+        System.out.println("La suma de los números ingresados fue de: " + suma + " y la cantidad de nros distintos a 0 es " + (cont-1));
         
  
        

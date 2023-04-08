@@ -11,7 +11,7 @@ public class ejercicio8_tamanio_frase {
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
         String frase;
-        int largo, tamanio;
+        int tamanio;
        
         System.out.println("Ingrese por favor una frase o palabra"); 
         frase = leer.nextLine();
